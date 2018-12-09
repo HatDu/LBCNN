@@ -1,5 +1,5 @@
 # LBCNN
-An implementation of LBCNN.
+Pytorch implementation of LBCNN.
 
 Paper: [Local Binary Convolutional Neural Networks](https://arxiv.org/abs/1608.06049)
 

@@ -11,7 +11,9 @@ I run my code on my laptop with CPU(core i5), only 1 epoch(>_<),here are the res
 
 ## Model based on LBC
 Layer1: (in_channel=1, out_channel=6, num_of_anchor_weight=4, sparsity=0.9, kernel_size=3, padding=1) -> MaxPool_2x2
+
 Layer2: (in_channel=6, out_channel=16, num_of_anchor_weight=4, sparsity=0.9, kernel_size=3, padding=1) -> MaxPool_2x2
+
 Full connection layer: fc(100) -> relu -> fc(10)
 ```
 epoch 1, iter 100: loss 0.528, time: 10.600
@@ -26,7 +28,9 @@ Test Accuracy of the model on the 10000 test images: 92.15 %
 
 ## Model based on CNN
 Layer1: (in_channel=1, out_channel=6, kernel_size=3, padding=1) -> MaxPool_2x2
+
 Layer2: (in_channel=6, out_channel=16, kernel_size=3, padding=1) -> MaxPool_2x2
+
 Full connection layer: fc(100) -> relu -> fc(10)
 
 ```

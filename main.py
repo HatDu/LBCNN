@@ -12,6 +12,7 @@ num_epochs = 5
 num_classes = 10
 batch_size = 100
 learning_rate = 0.001
+
 # build model
 model = SimpleNetLBC(num_classes=10).to(device)
 # model = SimpleNetCNN(num_classes=10).to(device)
